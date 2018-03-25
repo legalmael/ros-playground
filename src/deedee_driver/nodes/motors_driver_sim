@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
-from deedee_driver.motors import MotorsDriverSim
+import rospy
+#from deedee_driver.motors import MotorsDriverSim
 
 class MotorsDriverSim:
     def __init__(self):
